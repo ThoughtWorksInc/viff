@@ -1,0 +1,89 @@
+{
+  "name": "viff",
+  "description": "Find virtual differences between web pages in different environments(developing, staging, production) and browsers.",
+  "version": "2.0.0",
+  "homepage": "https://github.com/winsonwq/viff",
+  "author": {
+    "name": "Wang Qiu",
+    "email": "winsonwq@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/windonwq/viff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/windonwq/viff/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/windonwq/viff/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/viff.js",
+  "engines": {
+    "node": ">0.8.0"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "canvas": "^1.1.6",
+    "coffee-script": "^1.7.1",
+    "colors": "*",
+    "connect": "^2.14.2",
+    "connect-multiparty": "^1.0.3",
+    "phantom": "^0.6.1",
+    "q": "latest",
+    "resemble": "^1.1.0",
+    "underscore": "*",
+    "wd": "~0.2.12",
+    "wrench": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "sinon": "*",
+    "chai": "*",
+    "grunt-mocha-test": "~0.9.0"
+  },
+  "keywords": [
+    "testing",
+    "viff",
+    "diff",
+    "web",
+    "e2e"
+  ],
+  "bin": {
+    "viff": "./bin/viff",
+    "viffstream": "./bin/viffstream",
+    "viffserver": "./bin/viffserver"
+  },
+  "scripts": {
+    "build": "node_modules/coffee-script/bin/cake build",
+    "install": "npm run build",
+    "test": "npm install && grunt default"
+  },
+  "gitHead": "152c5eaad19ce6904e447e0386fbd1f7b91deb3e",
+  "_id": "viff@2.0.0",
+  "_shasum": "7dd8885acca1f879d907aeb392a48b56cfaec323",
+  "_from": "viff@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "winsonwq",
+    "email": "winsonwq@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "winsonwq",
+      "email": "winsonwq@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "7dd8885acca1f879d907aeb392a48b56cfaec323",
+    "tarball": "http://registry.npmjs.org/viff/-/viff-2.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/viff/-/viff-2.0.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
