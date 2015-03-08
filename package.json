@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "async": "~0.2.10",
-    "canvas": "^1.1.6",
+    "canvas": "git+ssh://git@github.com:Automattic/node-canvas.git",
     "coffee-script": "^1.7.1",
     "colors": "*",
     "connect": "^2.14.2",
